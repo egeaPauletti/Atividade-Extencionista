@@ -1,0 +1,329 @@
+body {
+    background: url(../images/background.png) no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.headerContent {
+    display: flex;
+    background-color: #fff;
+    width: 100;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin: 1% 5% 0 5%;
+    padding: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);    
+}
+
+.headerLogo {
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.headerLogo h1{
+    font-size: 19px;
+    color: #1fde54;
+    padding: 15px 0 0 5px; 
+}
+
+.headerContent ul{
+    display: flex;
+    padding-right: 150px;
+}
+
+.headerContent li{
+    list-style: none;
+}
+
+.headerContent li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+    color: black;
+}
+
+/* Entrada */
+
+#entrada{
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.entradaContent{
+    display: inline;
+}
+
+.entradaContent h1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: Bold;
+    font-size: 28px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #30CC3F;
+}
+
+.entradaContent p{
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.entradaContent button{
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 30px;
+    background-color: #30cc3f;
+    font-size: 17px;
+    font-size: 700;
+    color: #FFFFFF;
+    width: 120px;
+    height: 27px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);  
+}
+
+.entradaContent a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Alimentação */
+
+#alimentacao{
+    width: 100%;
+}
+
+.alimentacaoContent{
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+    width: 90%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.alimentacaoImg{
+    width: 400px;
+    display: inline-block;
+}
+
+.alimentacaoImg img{
+    width: 400px;
+}
+
+.alimentacaoTxt{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.alimentacaoTxt h1{
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-weight: Bold;
+    font-size: 25px;
+    color: #30CC3F;
+    padding-bottom: 15px;
+}
+
+.alimentacaoTxt p{
+    display: inline-block;
+    width: 750px;
+    font-size: 17px;
+}
+
+/* Exercicios */
+
+#exercicio{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercicioContetn{
+    display: inline;
+}
+
+.exercicioTxt{
+    padding: 30px 0;
+
+}
+
+.exercicioTxt h1{
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-weight: Bold;
+    font-size: 25px;
+    color: #30CC3F;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.exercicioTxt p{
+    display: block;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+
+
+.panels{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panels h1{
+    color: #1fde54;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-size: 17px;
+}
+
+.panels p {
+    width: 250px;
+    margin: auto;
+}
+
+
+
+.panel2, .panel3, .panel4{
+    margin-left: 20px;
+}
+
+.panel1{
+    background-color: #fff;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);  
+}
+.panel2{
+    background-color: #fff;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);   
+}
+.panel3{
+    background-color: #fff;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);    
+}
+.panel4{
+    background-color: #fff;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);  
+}
+
+/* Higiene */
+
+#higiene{
+    width: 100%;
+}
+
+.higieneContent{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.higieneTxt{
+    display: inline-block;
+    width: 700px;
+    right: 0;
+}
+
+.higieneImg{
+    display: inline-block;
+    width: 400px;
+    padding-left: 100px;
+}
+.higieneImg img{
+    width: 400px;
+}
+
+.higieneTxt h1{
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-weight: Bold;
+    font-size: 25px;
+    color: #30CC3F;
+    padding-bottom: 15px;
+}
+
+.higieneTxt p{
+    display: inline-block;
+    width: 700px;
+    font-size: 17px;
+}
+
+/* Mental */
+
+#mental {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.mentalImg1, .mentalImg2{
+    display: inline-block;
+}
+
+
+#mental img{
+    width: 200px;
+    display: inline-block;
+}
+
+.mentalTxt {
+    display: inline-block;
+    padding: 100px 20px 0 20px;
+}
+
+.mentalTxt h1 {
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-weight: Bold;
+    font-size: 25px;
+    color: #30CC3F;
+    padding-bottom: 15px;
+}
+
+.mentalTxt P{
+    display: inline-block;
+    width: 600px;
+    font-size: 17px;
+}
